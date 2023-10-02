@@ -105,21 +105,17 @@ require_once 'database/db_users.php';
 $conectar=conn();
             
           
-            $query= mysqli_query($conectar,"SELECT scheId,mon,tus,wen,thu,fri,sat,sun,time FROM generalSchedules where profileId='$profileId'");
+            $query= mysqli_query($conectar,"SELECT userName,userNickName,userSaveText,userState,userId FROM user");
             $values=[];
           
             while($row = $query->fetch_assoc())
             {
                     $value=[
-                        'scheId' => $row['scheId'],
-                        'mon' => $row['mon'],
-                        'tus' => $row['tus'],
-                        'wen' => $row['wen'],
-                        'thu' => $row['thu'],
-                        'fri' => $row['fri'],
-                        'sat' => $row['sat'],
-                        'sun' => $row['sun'],
-                        'time' => $row['time']
+                        'nombre' => $row['userName'],
+                        'nombreUsuario' => $row['userNickName'],
+                        'guardar' => $row['userSaveText'],
+                        'estado' => $row['userState'],
+                        'id' => $row['userId'],
                     ];
                     
                     array_push($values,$value);
@@ -127,6 +123,6 @@ $conectar=conn();
             }
             $row=$query->fetch_assoc();
             //echo json_encode($students) ;
-            echo json_encode(['schedule'=>$values]);
+            echo json_encode(['usuarios'=>$values]);
 
 ?>
