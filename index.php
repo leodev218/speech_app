@@ -93,3 +93,19 @@
   </body>
 
 </html>
+
+
+<?php
+require_once 'database/db_users.php';
+
+
+
+
+
+$conectar=conn();
+            
+          
+            $query= mysqli_query($conectar,"SELECT scheId,mon,tus,wen,thu,fri,sat,sun,time FROM generalSchedules where profileId='$profileId'");
+               
+
+?>
