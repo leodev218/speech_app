@@ -12,12 +12,21 @@ include "../templates/header.php";?>
         <br>
         <br>
         <br>
-        <h1>index</h1>
-     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta vel, facilis aut, dolorem pariatur, sed nam unde numquam repudiandae recusandae soluta consequuntur. Inventore, iusto provident laboriosam assumenda dolores natus architecto.</p>
+        <h1 class="h-4">index</h1>
+     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta vel, facilis aut,
+       dolorem pariatur, sed nam unde numquam repudiandae recusandae soluta consequuntur. 
+       Inventore, iusto provident laboriosam assumenda dolores natus architecto.
+       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta vel, facilis aut,
+       dolorem pariatur, sed nam unde numquam repudiandae recusandae soluta consequuntur. 
+       Inventore, iusto provident laboriosam assumenda dolores natus architecto.
+       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta vel, facilis aut,
+       dolorem pariatur, sed nam unde numquam repudiandae recusandae soluta consequuntur. 
+       Inventore, iusto provident laboriosam assumenda dolores natus architecto.
+       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta vel, facilis aut,
+       dolorem pariatur, sed nam unde numquam repudiandae recusandae soluta consequuntur. 
+       Inventore, iusto provident laboriosam assumenda dolores natus architecto.</p>
         <br>
-        <br>
-        <br>
-        <br>
+      
     </div>
   <div class="col-xs-1 col-sm-2 col-md-2"></div>
 </div>    

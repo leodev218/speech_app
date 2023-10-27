@@ -3,6 +3,9 @@
       <div class="row">
         <div class="col-12 col-sm-1 col-md-1"></div>
         <div class="col-12 col-sm-10 col-md-10 text-light mt-4 ms-3">
+          <br>
+          <br>
+          <br>
           <h1>Speech Text</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis deserunt doloremque, maxime, repudiandae id omnis magni ipsum asperiores, odit unde architecto illum corporis facere ratione placeat suscipit. Fuga, quaerat aliquam?
